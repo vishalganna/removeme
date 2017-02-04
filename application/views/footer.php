@@ -1,35 +1,68 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
-    <div class="footer-connect">
+    <div class="footer-widgets section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-4">
-                    <div class="footer-subscribe">
-                        <h5 class="follow-heading">Join our Newsletter</h5>                                    <form novalidate="" target="_blank" class="" name="mc-embedded-subscribe-form" id="mc-embedded-subscribe-form" method="post"
-                                                                                                                     action="//famethemes.us8.list-manage.com/subscribe/post?u=521c400d049a59a4b9c0550c2&#038;id=83187e0006">
-                            <input type="text" placeholder="Enter your e-mail address" id="mce-EMAIL" class="subs_input" name="EMAIL" value="">
-                            <input type="submit" class="subs-button" value="Subscribe" name="subscribe">
-                        </form>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="footer-social">
-                        <h5 class="follow-heading">Keep Updated</h5><div class="footer-social-icons"><a target="_blank" href="#twittter" title="twitter"><i class="fa fa-twitter"></i></a><a target="_blank" href="#Faceboook" title="Facebook"><i class="fa fa-facebook"></i></a><a target="_blank" href="#google-plus" title="Google plus"><i class="fa fa-google-plus"></i></a><a target="_blank" href="#Instagram" title="Instagram"><i class="fa fa-instagram"></i></a></div>                                </div>
-                </div>
-                <div class="col-sm-2"></div>
+                <div id="footer-1" class="col-md-3 col-sm-12 footer-column widget-area sidebar" role="complementary">
+                    <aside id="text-3" class="widget widget_text"><h3 class="widget-title">About Screenr</h3>			<div class="textwidget"><p>Big - Bold and stylish, Screenr is a multiuse parallax fullscreen WordPress theme.</p>
+                            <p>Be sure to check out the <a target="_blank" href="http://demos.famethemes.com/screenr">Screenr Demo</a> or <a target="_blank" href="http://demos.famethemes.com/screenr-plus">Screenr Plus Demo</a> to see some of the possibilities.        </p>
+                        </div>
+                    </aside>								</div>
+                <div id="footer-2" class="col-md-3 col-sm-12 footer-column widget-area sidebar" role="complementary">
+                    <aside id="recent-posts-5" class="widget widget_recent_entries">		<h3 class="widget-title">Recent News</h3>		<ul>
+                            <li>
+                                <a href="http://demos.famethemes.com/screenr-plus/markup-image-alignment/">Markup: Image Alignment</a>
+                            </li>
+                            <li>
+                                <a href="http://demos.famethemes.com/screenr-plus/markup-html-tags-and-formatting/">HTML Tags and Formatting</a>
+                            </li>
+                            <li>
+                                <a href="http://demos.famethemes.com/screenr-plus/markup-text-alignment/">Markup: Text Alignment</a>
+                            </li>
+                        </ul>
+                    </aside>										</div>
+                <div id="footer-3" class="col-md-3 col-sm-12 footer-column widget-area sidebar" role="complementary">
+                    <aside id="text-5" class="widget widget_text"><h3 class="widget-title">Company Office</h3>			<div class="textwidget"><div class="contact-info-item">
+                                <div class="contact-text"><i class="fa fa-map-marker"></i></div>
+                                <div class="contact-value">1600 Amphitheatre Parkway<br>
+                                    Mountain View CA 94043
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="contact-text"><i class="fa fa-phone"></i></div>
+                                <div class="contact-value"><a href="tel:555-555-5555">1.800.451.128</a></div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="contact-text"><i class="fa fa-envelope"></i></div>
+                                <div class="contact-value"><a href="contact@company.com">contact@company.com</a></div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="contact-text"><i class="fa fa-fax"></i></div>
+                                <div class="contact-value">FAX: (123) 123-4567</div>
+                            </div>
+                        </div>
+                    </aside>								</div>
+                <div id="footer-4" class="col-md-3 col-sm-12 footer-column widget-area sidebar" role="complementary">
+                    <aside id="text-4" class="widget widget_text"><h3 class="widget-title">Business Hours</h3>			<div class="textwidget"><p>Our support available to help you 24 hours a day, seven days a week.</p>
+                            <ul class="hours"><li>Monday-Friday: <span>9am to 5pm</span></li><li>Saturday: <span>10am to 2pm</span></li><li>Sunday: <span>Closed</span></li></ul></div>
+                    </aside>								</div>
             </div>
         </div>
     </div>
 
-    <div class="site-info">
+    <div id="footer-site-info" class="site-info">
         <div class="container">
-            <div class="btt">
-                <a class="back-top-top" href="#page" title="Back To Top"><i class="fa fa-angle-double-up wow flash" data-wow-duration="2s"></i></a>
-            </div>
-            Copyright &copy; 2017 RemoveMe<span class="sep"> &ndash; </span>Developed with <span class="fa fa-heart" style="color: #c61749"></span> by Vishal Jain</div>
-    </div>
-    <!-- .site-info -->
+            <div class="site-copyright">
+                Copyright &copy; 2017 Screenr+. All Rights Reserved.                                    </div><!-- .site-copyright -->
+            <div class="theme-info ">
+                <a href="https://www.famethemes.com/themes/screenr">Screenr parallax theme</a> by FameThemes                </div>
+        </div>
+    </div><!-- .site-info -->
+
+</footer><!-- #colophon -->
+</div>
+</div>
+</div>
+<!-- .site-info -->
 
 </footer><!-- #colophon -->
 </div><!-- #page -->

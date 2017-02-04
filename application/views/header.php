@@ -36,6 +36,7 @@
         <link href="<?php echo base_url(); ?>assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo base_url(); ?>assets/css/removeme.css" rel="stylesheet" type="text/css"/>
 
         <script type='text/javascript' src='<?php echo base_url(); ?>assets/js/jquery.js?ver=1.12.4'></script>
         <script type='text/javascript' src='<?php echo base_url(); ?>assets/js/jquery-migrate.min.js?ver=1.4.1'></script>
@@ -45,14 +46,10 @@
     <body class="home page page-id-4 page-template page-template-template-frontpage page-template-template-frontpage-php has-site-title no-site-tagline header-layout-fixed">
         <div id="page" class="site">
             <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-            <header id="masthead" class="site-header sticky-header transparent" role="banner">
+            <header id="masthead" class="site-header sticky-header" role="banner">
                 <div class="container">
                     <div class="site-branding">
-                        <div class="site-brand-inner has-logo-img no-desc">
-                            <div class="site-logo-div">
-                                <a href="<?php echo base_url(); ?>" class="custom-logo-link" rel="home" itemprop="url"><img width="152" height="36" src="http://demos.famethemes.com/onepress-plus/wp-content/uploads/sites/18/2016/02/logo.png" class="custom-logo" alt="logo" itemprop="logo" srcset="http://demos.famethemes.com/onepress-plus/wp-content/uploads/sites/18/2016/02/logo.png 152w, http://demos.famethemes.com/onepress-plus/wp-content/uploads/sites/18/2016/02/logo-150x36.png 150w" sizes="(max-width: 152px) 100vw, 152px" /></a>
-                            </div>
-                        </div>
+                        <p class="site-title"><a href="<?php echo base_url(); ?>" rel="home">RemoveMe</a></p>
                     </div>
                     <!-- .site-branding -->
 

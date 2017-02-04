@@ -8,7 +8,20 @@ and open the template in the editor.
     Author     : Vishal
 */
 
-.left-sidebar, .left-sidebar
+.main-content, .right-sidebar
 {
-    
+    border: 1px solid #e5e5e5;
+    border-radius: .25rem;   
+}
+
+.main-content
+{    margin: auto 20px;
+     float: left;
+     width: 70%;
+}
+
+.right-sidebar
+{
+    float: right;
+    width: 27%;
 }

@@ -2,9 +2,8 @@
 <div id="content" class="site-content">
     <main id="main" class="site-main" role="main">
         <div class="content-area">
-            <div class="col-lg-2 left-sidebar"><?php $this->load->view('leftSidebar'); ?></div>
-            <div class="col-lg-6"><?php $this->load->view($view); ?></div>
-            <div class="col-lg-4 right-sidebar"><?php $this->load->view('rightSidebar'); ?></div>
+            <div class="main-content"><?php $this->load->view($view); ?></div>
+            <aside class="right-sidebar"><?php $this->load->view('rightSidebar'); ?></aside>
         </div>
     </main><!-- #main -->
 </div><!-- #content -->
