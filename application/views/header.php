@@ -36,41 +36,16 @@
         <link href="<?php echo base_url(); ?>assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet" type="text/css"/>
-        <style id='onepress-style-inline-css' type='text/css'>
-            .section-clients{ padding-top: 35px; padding-bottom: 35px; background-color: ; } 
-            .section-features{ background-color: ; } 
-            .section-about{ background-color: ; } 
-            .section-videolightbox{ background-color: rgba(27,184,232,0.29) } 
-            .section-gallery{ background-color: rgba(255,255,255,1); } 
-            .section-services{ background-color: ; } 
-            .section-projects{ background-color: ; } 
-            .section-counter{ background-color: ; } 
-            .section-testimonials{ background-color: ; } 
-            .section-pricing{ background-color: rgba(31,197,209,0.45) } 
-            .section-cta{ background-color: ; } 
-            .section-team{ background-color: ; } 
-            .section-news{ background-color: ; } 
-            .section-map{ background-color: ; } 
-            .section-contact{ background-color: ; } 
-
-        </style>
-
-        <script type='text/javascript'>
-            /* <![CDATA[ */
-            var onepress_js_settings = {"onepress_disable_animation":"", "onepress_disable_sticky_header":"", "onepress_vertical_align_menu":"", "hero_animation":"flipInX", "hero_speed":"5000", "is_home":"", "gallery_enable":"1"};
-            var OnePress_Plus = {"ajax_url":"http:\/\/demos.famethemes.com\/onepress-plus\/wp-admin\/admin-ajax.php", "browser_warning":" Your browser does not support the video tag. I suggest you upgrade your browser."};
-            /* ]]> */
-        </script>
 
         <script type='text/javascript' src='<?php echo base_url(); ?>assets/js/jquery.js?ver=1.12.4'></script>
         <script type='text/javascript' src='<?php echo base_url(); ?>assets/js/jquery-migrate.min.js?ver=1.4.1'></script>
 
     </head>
 
-    <body class="home page page-id-4 page-template page-template-template-frontpage page-template-template-frontpage-php wp-custom-logo sticky-header">
-        <div id="page" class="hfeed site">
+    <body class="home page page-id-4 page-template page-template-template-frontpage page-template-template-frontpage-php has-site-title no-site-tagline header-layout-fixed">
+        <div id="page" class="site">
             <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-            <header id="masthead" class="site-header" role="banner">
+            <header id="masthead" class="site-header sticky-header transparent" role="banner">
                 <div class="container">
                     <div class="site-branding">
                         <div class="site-brand-inner has-logo-img no-desc">
@@ -84,7 +59,7 @@
                     <div class="header-right-wrapper">
                         <a href="#0" id="nav-toggle">Menu<span></span></a>
                         <nav id="site-navigation" class="main-navigation" role="navigation">
-                            <ul class="onepress-menu">
+                            <ul class="nav-menu">
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#about">About</a></li>
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#contact">Contact</a></li>
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#features">Features</a></li>
